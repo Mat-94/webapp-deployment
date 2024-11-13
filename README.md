@@ -48,6 +48,8 @@ sudo vi /opt/tomcat9/conf/tomcat-users.xml
 Step 7:
 sudo stoptomcat
 sudo starttomcat
+![Screenshot (26)](https://github.com/user-attachments/assets/0d31a683-0b7e-4eb7-a202-cefe6185c8c6)
+
 
 Step 8 : 
  Enable password Authentication:
