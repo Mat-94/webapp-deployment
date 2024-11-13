@@ -47,8 +47,11 @@ sudo vi /opt/tomcat9/conf/tomcat-users.xml
 
 Step 7:
 sudo stoptomcat
-sudo starttomcat
-![Screenshot (26)](https://github.com/user-attachments/assets/0d31a683-0b7e-4eb7-a202-cefe6185c8c6)
+sudo starttomcat    
+
+THE IMAGE BELOW SHOWS WEBAPP IS NOT YET DEPLOYED
+
+![Screenshot (22)](https://github.com/user-attachments/assets/92bd3563-5b98-4241-b270-f8b1307b300a)
 
 
 Step 8 : 
@@ -92,7 +95,15 @@ scp web-app.war ec2-user@ip:/opt/tomcat9/webapps
 ssh -i <path-to-key> user@ip
 
 scp web-app.war ec2-user@18.191.157.132:/opt/tomcat9/webapps/jomacs.war
+
+IMAGE BELOW SHOWS A SUCCESSFUL DEPLOYMENT
+![Screenshot (26)](https://github.com/user-attachments/assets/a4420296-9434-4115-b5c8-6eb3f71d38da)
+
+
 scp web-app.war ec2-user@18.191.157.132:/opt/tomcat9/webapps/competitors.war
+BY CLICKING ON THE WEBAPP/ LINK THE IMAGE BELOW SHOWED,
+![Screenshot (27)](https://github.com/user-attachments/assets/ac653331-1ddf-499d-bab7-649740fc6e84)
+
 
 
 
